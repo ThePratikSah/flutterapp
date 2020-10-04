@@ -1,3 +1,4 @@
+import 'package:awesome/pages/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -5,20 +6,4 @@ void main() {
     title: "Awesome App",
     home: HomePage(),
   ));
-}
-
-class HomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Home Page"),
-      ),
-      body: Container(
-        child: Center(
-          child: Text("Hi Flutter"),
-        ),
-      ),
-    );
-  }
 }
